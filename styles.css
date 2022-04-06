@@ -1,3 +1,58 @@
+*,
+*::before,
+*::after{
+  padding: 0;
+  margin: 0;
+
+}
+
 body {
-  background: orange;
+  background: rgb(255, 255, 255);
+}
+
+#Top{
+  background-color: #263238;
+  height: 150px;
+
+}
+#Mid{
+  background-color: #1565C0;
+  height: 350px;
+
+}
+#Bot{
+background-color: #42A5F5;
+}
+h1{
+  font-size: 25px;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing:3px;
+  position: relative; left:20px; top:20px;
+}
+h5{
+  color: white;
+  position: relative; left:20px; top:20px;
+}
+h6{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative; left:20px; top:30px;
+  font-size: 8px;
+}
+h3{
+  color: white;
+
+}
+
+.margLeft {
+  margin-left: 2rem;
+}
+.grayBGTimeline {
+  background-color: #607D8B;
+  width: fit-content;
+}
+li {
+  padding: 1rem 0;
+  color: white;
 }
